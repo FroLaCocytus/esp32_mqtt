@@ -1,0 +1,17 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.portWin": "COM8",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "event_groups.h": "c",
+    "sdkconfig.h": "c",
+    "array": "c",
+    "bitset": "c",
+    "string_view": "c",
+    "initializer_list": "c",
+    "regex": "c",
+    "esp_intr_alloc.h": "c",
+    "string": "c"
+  },
+  "idf.adapterTargetName": "esp32"
+}

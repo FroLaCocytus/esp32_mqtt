@@ -1,0 +1,27 @@
+menu "WIFI"
+    config SSID
+        string "SSID"
+        default "mySSID"
+
+    config PASSWORD
+        string "PASSWORD"
+        default "myPassword"
+
+    # config MQTT_BROKER_URL
+    #     string "MQTT_BROKER_URL"
+    #     default "myURL"
+
+    # config MQTT_BROKER_PORT
+    #     string "MQTT_BROKER_PORT"
+    #     default "myPORT"
+endmenu
+
+menu "MQTT"
+    config URL
+        string "URL"
+        default "myURL"
+
+    config PORT
+        string "PORT"
+        default "myPORT"
+endmenu
